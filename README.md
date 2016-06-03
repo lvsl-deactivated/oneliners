@@ -1,5 +1,5 @@
 # oneliners
-*Useful unix one-liners.*
+*Useful unix one-liners – Battle Tested in production :fire:*
 
 ## Linux commands
 
