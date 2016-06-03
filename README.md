@@ -30,3 +30,8 @@ Find imports of some `legacy_crap` in huge Python codebase:
 ```
 $ ack --python '.*import.*legacy_crap.*'
 ```
+
+### fzf
+[Ffz](https://github.com/junegunn/fzf-bin/releases) is a fuzzy directory search. Useful for working with huge code repo,
+like in most companies. Installs as a stand-alone binary with 0 depedencies.
+
