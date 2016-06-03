@@ -40,3 +40,5 @@ alias vzv='f=$(find . | fzf -e) && vim $f'
 ```
 Using it you can always start from a root of a huge repo and avoid cd-ing into directories and hintting TAB key a lot.
 
+### jq
+[Jq](https://stedolan.github.io/jq/) allows XPATH-style querying over `\n`-separated JSON. Super useful with other CLI tools that return JSON.
