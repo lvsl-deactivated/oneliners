@@ -1,4 +1,4 @@
-# Oneliners
+# oneliners
 *Useful unix one-liners – Battle Tested in Production :fire:*
 
 ## Linux commands
