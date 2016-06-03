@@ -42,3 +42,7 @@ Using it you can always start from a root of a huge repo and avoid cd-ing into d
 
 ### jq
 [Jq](https://stedolan.github.io/jq/) allows XPATH-style querying over `\n`-separated JSON. Super useful with other CLI tools that return JSON.
+For example, get instances behind AWS ELBs:
+```
+$ aws --region us-west-2 elb describe-load-balancers | jq '.LoadBalancerDescriptions | .Instances'
+```
