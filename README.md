@@ -34,5 +34,5 @@ $ ack --python '.*import.*legacy_crap.*'
 ### fzf
 [Ffz](https://github.com/junegunn/fzf-bin/releases) is a fuzzy directory search. Useful for working with huge code repo,
 like in most companies. Installs as a stand-alone binary with zere depedencies.
-In a huge repository it's really useful to have the following shell alias: `alias vzv='f=$(fzf -e) && vim $f'`. Using it you can always start from a root of a huge repo and avoid cd-ing into directories and hintting <TAB> a lot.
+In a huge repository it's really useful to have the following shell alias: `alias vzv='f=$(find . | fzf -e) && vim $f'`. Using it you can always start from a root of a huge repo and avoid cd-ing into directories and hintting <TAB> a lot.
 
