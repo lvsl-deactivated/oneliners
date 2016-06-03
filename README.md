@@ -1,8 +1,6 @@
 # oneliners
 *Useful unix one-liners – Battle Tested in Production :fire:*
-
 ## Linux commands
-
 ### pgrep
 Kill all Java processes running under Hadoop user whose parent died.
 ```
@@ -18,4 +16,17 @@ sudo netstat -ap | grep 2181
 or, looks less verbose:
 ```
 sudo lsof -i :2181
+```
+
+## Linux tools
+### ack
+[Ack](http://beyondgrep.com/) is awesome, single file in Perl (~4K lines).
+Find all files under current dir with that name:
+```
+$ ack -g bazinga.jpg
+```
+
+Find imports of some `legacy_crap` in huge Python codebase:
+```
+$ ack --python '.*import.*legacy_crap.*'
 ```
