@@ -38,5 +38,5 @@ In a huge repository it's really useful to have the following shell alias in you
 ```
 alias vzv='f=$(find . | fzf -e) && vim $f'
 ```
-Using it you can always start from a root of a huge repo and avoid cd-ing into directories and hintting <TAB> a lot.
+Using it you can always start from a root of a huge repo and avoid cd-ing into directories and hintting TAB key a lot.
 
