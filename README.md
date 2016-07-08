@@ -46,3 +46,9 @@ For example, get instances behind AWS ELBs:
 ```
 $ aws --region us-west-2 elb describe-load-balancers | jq '.LoadBalancerDescriptions | .Instances'
 ```
+
+### pkill
+Always kill bash processed with `pkill -g` to send signal to the whole group, otherweise you may have processes called from shell still running.
+```
+$ pkill -INT -g 1234
+```
